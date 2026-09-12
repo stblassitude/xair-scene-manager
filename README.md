@@ -4,12 +4,27 @@ Python tool to copy, export, and import X-Air mixer scenes between mixer scene s
 
 ## Requirements
 
-Python 3.8 or newer. No external dependencies (pure standard library) —
-just run `./xair-scene-manager` directly, or `python3 xair-scene-manager`.
+Python 3.8 or newer. No external dependencies (pure standard library).
 
 Talks to the mixer over its OSC control port (UDP 10024 by default,
 override with `-p/--port`) on the local network, so the machine running
 this tool needs network access to the mixer.
+
+## Installation
+
+Install the `xair-scene-manager` command from PyPI:
+
+```sh
+pip install xair-scene-manager
+```
+
+Alternatively, run it straight from a checkout without installing anything:
+
+```sh
+./xair-scene-manager ...
+# or
+python3 xair-scene-manager ...
+```
 
 ## Usage
 
