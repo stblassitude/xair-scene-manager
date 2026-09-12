@@ -4,7 +4,7 @@ Python tool to copy, export, and import X-Air mixer scenes between mixer scene s
 
 ## Requirements
 
-Python 3.8 or newer. No external dependencies (pure standard library).
+Python 3.11 or newer. No external dependencies (pure standard library).
 
 Talks to the mixer over its OSC control port (UDP 10024 by default,
 override with `-p/--port`) on the local network, so the machine running
